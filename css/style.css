@@ -1,0 +1,160 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+
+    *   {
+        font-family: 'Roboto', sans-serif;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        }
+    
+        html{
+            font-size: 62.5%;
+        }
+    
+        .logo{
+        height: 15rem;
+        width: 15rem;
+
+        }
+
+    nav{
+    background-color:gray;
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        line-height: 1.4;
+        background-size: auto;
+        justify-content: space-between;
+        align-items: center;    
+        }
+
+        nav ul{
+            list-style: none;
+            display: inline-block;
+        }
+
+     nav ul li{
+            display: inline-block;
+            margin-right: 1.5rem;      
+            }   
+
+     nav ul li a{
+    color: black;
+            font-weight: bold;
+            font-size: 2.5rem;
+            text-decoration: none;            
+    }
+
+    nav a:hover{
+        color: white;
+    }
+
+    header{
+        text-align: center;
+        background-size: auto;
+    }
+
+    body{
+        background-image: url(../img/backgrounds/background\ web.jpg);
+      
+    }
+
+
+
+h1{
+    color: rgb(187, 9, 9);
+    line-height: 2;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+h2{
+    color:rgb(187, 9, 9);
+    line-height: 2;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+section ul li{
+    display: flex;  
+    flex-direction: row; 
+   justify-content: center;
+   padding: 4rem;
+
+
+}
+
+p{
+    color: white;
+    line-height: 1.5;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 0.7rem;
+    border-style: dashed;
+
+}
+
+iframe{
+    margin: 1.5rem;
+
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.discosLaTrampa{
+    text-align: center;
+    margin: 1.5rem;
+    
+}
+
+.derechosReservados{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+article div{
+    color: white;
+    line-height: 1.4;
+    font-size: 1.5rem;
+    
+}
+
+form{
+    width: 60%;
+    margin: auto;
+}
+
+form label{
+    font-size: 2rem;
+    display: block;
+}
+
+form input{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    }
+
+form textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: grey;
+    border: 0.2rem solid black;
+    text-align: right;
+    
+}
+
+footer a img{
+    height: 5rem;
+    width: 5rem;
+    padding: 0.7rem;
+   }
+
