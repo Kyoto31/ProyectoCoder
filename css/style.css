@@ -13,50 +13,48 @@
         }
     
         .logo{
-        height: 15rem;
-        width: 15rem;
-
+        height: 10rem;
+        width: 10rem;
         }
 
-    nav{
-    background-color:gray;
-        display: flex;
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-        line-height: 1.4;
-        background-size: auto;
-        justify-content: space-between;
-        align-items: center;    
-        }
+        nav{
+            background-color:gray;
+                display: flex;
+                padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                line-height: 1.4;
+                background-size: auto;
+                justify-content: space-between;
+                align-items: center;    
+                }
+        
+                nav ul{
+                    list-style: none;
+                    display: inline-block;
+                }
+        
+             nav ul li{
+                    display: inline-block;
+                    margin-right: 1.5rem;      
+                    }   
+        
+             nav ul li a{
+            color: black;
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                    text-decoration: none;            
+            }
+        
+            nav a:hover{
+                color: white;
+            }
 
-        nav ul{
-            list-style: none;
-            display: inline-block;
-        }
-
-     nav ul li{
-            display: inline-block;
-            margin-right: 1.5rem;      
-            }   
-
-     nav ul li a{
-    color: black;
-            font-weight: bold;
-            font-size: 2.5rem;
-            text-decoration: none;            
-    }
-
-    nav a:hover{
-        color: white;
-    }
-
-    header{
-        text-align: center;
-        background-size: auto;
-    }
+            header{
+                text-align: center;
+                background-size: auto;
+            }
 
     body{
         background-image: url(../img/backgrounds/background\ web.jpg);
-      
     }
 
 
@@ -94,26 +92,34 @@ p{
 
 }
 
-iframe{
-    margin: 1.5rem;
 
+
+.embed-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 75%;
+    height: 75%;
 }
 
 .textCenter{
     text-align: center;
 }
 
-.discosLaTrampa{
-    text-align: center;
-    margin: 1.5rem;
-    
-}
+
 
 .derechosReservados{
     text-align: center;
     color: black;
     font-weight: bold;
 }
+
 
 
 article div{
