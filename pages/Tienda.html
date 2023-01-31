@@ -6,55 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda- Oficial</title>
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!--CSS BOOTS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-    <nav>
-         <a href="../index.html">
-        <img src="../img/logo.svg" alt="logo La Trampa" class="logo">
-        </a>
-        
-        <ul>          
-            <li>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!--STAR HEADER-->
+<header> 
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.svg" alt="La Trampa logo" class="logo">
+          </a>
+          <!--btn hambrg-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--btn hambrg-->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li>
                 <a href="../pages/Discografía.html">Discografía</a>
-            </li>
-            <li>
+              </li>
+              <li>
                 <a href="../pages/Historia.html">Historia</a>
-            </li>
-            <li>
+              </li>
+              <li>
                 <a href="../pages/Tienda.html">Tienda</a>
-            </li>
-            <li>
+              </li>
+              <li>
                 <a href="../pages/Contacto.html">Contacto</a>
-            </li>
-        </ul>
-
-    </nav>
-<br>
-<br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
             <img src="../img/laTrampaDiscos.jpg" alt="La Trampa integrantes" height="0%" width="60%">
     </header>    
 <!--ends header-->
 <main>
-    <section>
-        <h1>Tienda</h1>
+    <section>  
+        <h1 class="textCenter">Productos</h1>
     </section>
 
-    <h2 class="textCenter">Productos</h2>
-
-    <section>
-        <ul>
-        <li><img src="../img/productos tienda/kanguro1.jpg" alt="kanguro1LaTrampa"></li>
-        <li><img src="../img/productos tienda/remera1.jpg" alt="remera1LaTrampa"></li>
-        <li><img src="../img/productos tienda/remera2.jpg" alt="remera2LaTrampa"></li>
-        <li><img src="../img/productos tienda/remera3.jpg" alt="remera3LaTrampa"></li>
-        <li><img src="../img/productos tienda/remera4.jpg" alt="remera4LaTrampa"></li>
-    </ul>    
-    
-    </section>
-
-   </main>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/productos tienda/kanguro1.jpg" class="d-block w-100" alt="kanguro la trampa">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/productos tienda/remera2.jpg" class="d-block w-100" alt="remera la trampa">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/productos tienda/remera3.jpg" class="d-block w-100" alt="remera gris la trampa">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+</main>
 <!--ends main-->
 
 <footer>
