@@ -1,0 +1,38 @@
+nav{
+    background-color:$mainColor;
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        line-height: 1.4;
+        background-size: auto;
+        justify-content: space-between;
+        align-items: center;    
+        }
+
+        nav ul{
+            list-style: none;
+            display: inline-block;
+        
+             }
+     nav ul li{
+            display: inline-block;
+            margin-right: 1.5rem;      
+            }
+                 
+            nav ul li a{
+            color: $colorBlack;
+            font-weight: bold;
+            font-size: 2.5rem;
+            text-decoration: none;            
+            }
+                
+
+    nav a:hover{
+        cursor: pointer;
+        color: $colorText;
+        transition: 1.5s;
+    }
+
+    header{
+        text-align: center;
+        background-size: auto;
+    }
