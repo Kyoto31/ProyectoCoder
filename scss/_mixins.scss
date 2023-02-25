@@ -1,0 +1,15 @@
+@mixin titles{
+    color: $colorHss;
+    line-height: 2;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+
+h1{
+    @include titles;
+    }
+  
+     h2{
+        @include titles;
+     } 
